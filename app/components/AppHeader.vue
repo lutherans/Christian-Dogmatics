@@ -3,7 +3,7 @@ import type { NavItem } from '@nuxt/content'
 
 const navigation = inject<NavItem[]>('navigation', [])
 
-const { header } = useAppConfig()
+const { header, seo } = useAppConfig()
 </script>
 
 <template>
@@ -13,7 +13,7 @@ const { header } = useAppConfig()
         <UColorModeImage v-bind="{ class: 'h-6 w-auto', ...header?.logo }" />
       </template>
       <template v-else>
-        Nuxt UI Pro <UBadge
+        {{ seo?.siteName }} <UBadge
           label="Docs"
           variant="subtle"
           class="mb-0.5"
