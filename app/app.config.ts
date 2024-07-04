@@ -28,11 +28,11 @@ export default defineAppConfig({
     }]
   },
   footer: {
-    credits: 'Made by @lutherans',
+    credits: 'Made by Kyrie Eleison',
     colorMode: false,
     links: [{
       'icon': 'i-simple-icons-nuxtdotjs',
-      'to': 'https://github.com/luther-theolog',
+      'to': 'https://github.com/lutherans',
       'target': '_blank',
       'aria-label': 'Lutherans on GitHub'
     }, {
