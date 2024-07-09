@@ -47,7 +47,7 @@ body:
         1. I expected...
         - ...
     validations:
-      required: true
+      required: false
   - type: textarea
     id: screenshots
     attributes:
@@ -55,7 +55,7 @@ body:
       description: If applicable, add screenshots to help explain the problem.
       placeholder: Take screenshots of the bug and show or tell us what you see!
     validations:
-      required: true
+      required: false
   - type: textarea
     id: additional-context
     attributes:
@@ -63,7 +63,7 @@ body:
       description: Add any other context about the bug here.
       placeholder: ex. Another thing about the bug ... 
     validations:
-      required: true
+      required: false
   - type: checkboxes
     id: terms
     attributes:

@@ -16,7 +16,7 @@ body:
       description: Start with the describing the challenge you have discovered and maybe have and ide about how to solve.
       placeholder: ex. The challenge is ... 
     validations:
-      required: true
+      required: false
   - type: textarea
     id: the-proposed-solution
     attributes:
@@ -36,7 +36,7 @@ body:
       description: Are there any breaking changes with this proposal? If so, please detail them here.
       placeholder: ex. Because this is ... this can be a breaking changes.
     validations:
-      required: true
+      required: false
   - type: checkboxes
     id: terms
     attributes:

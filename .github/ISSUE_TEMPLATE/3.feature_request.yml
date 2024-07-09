@@ -28,7 +28,7 @@ body:
         3...
         4...
     validations:
-      required: true
+      required: false
   - type: textarea
     id: alternatives
     attributes:
@@ -36,7 +36,7 @@ body:
       description: A clear and concise description of any alternative solutions or features you've considered.
       placeholder: ex. Alternatives I have considered is ...
     validations:
-      required: true
+      required: false
   - type: checkboxes
     id: terms
     attributes:
