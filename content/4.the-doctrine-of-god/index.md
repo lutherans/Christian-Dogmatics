@@ -1,8 +1,8 @@
 ---
-title: The Doctrine of God
+title: 1. THE NATURAL KNOWLEDGE OF GOD. (Notitia Dei Naturalis.)
 description: 
 ---
 
-This page is under construction!
+Whatever man knows of God...
 
-The content is coming as soon as posssibly!
+Not finish writing yet. Sorry about that!
