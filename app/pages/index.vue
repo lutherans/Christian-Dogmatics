@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import type { NavItem } from '@nuxt/content'
 const { data: page } = await useAsyncData('index', () => queryContent('/').findOne())
 
 useSeoMeta({
@@ -8,6 +9,8 @@ useSeoMeta({
   description: page.value.description,
   ogDescription: page.value.description
 })
+
+const navigation = inject<NavItem[]>('navigation', [])
 </script>
 
 <template>
@@ -68,5 +71,18 @@ useSeoMeta({
         />
       </UPageGrid>
     </ULandingSection>
+
+    <!-- source: https://ui.nuxt.com/pro/components/landing-section -->
+    <!--
+    <ULandingSection
+      :headline="page.features.title"
+      :links="page.features.links"
+      align="center"
+  >
+
+    <UNavigationTree :links="mapContentNavigation(navigation)" :multiple="false" default-open />
+  
+  </ULandingSection>
+  -->
   </div>
 </template>

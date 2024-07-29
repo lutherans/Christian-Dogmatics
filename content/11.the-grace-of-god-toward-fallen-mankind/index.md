@@ -1,5 +1,5 @@
 ---
-title: The grace of god toward fallen mankind
+title: THE GRACE OF GOD TOWARD FALLEN MANKIND.
 description: 
 ---
 
