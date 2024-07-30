@@ -47,7 +47,7 @@ const { header, seo } = useAppConfig()
     </template>
 
     <template #panel>
-      <UNavigationTree :links="mapContentNavigation(navigation)" :multiple="false" default-open />
+      <UNavigationTree :links="mapContentNavigation(navigation)" :multiple="false" />
     </template>
   </UHeader>
 </template>
